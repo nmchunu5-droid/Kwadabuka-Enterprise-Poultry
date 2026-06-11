@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 var express = require('express');
 
 var handler = require('./controllers/handler');
@@ -17,7 +17,7 @@ app.use(express.json());
 app.set('view engine', 'ejs');
 
 
-const urll = 'mongodb+srv://nmchunu5_db_user:Nhlaka95@cluster0.wkktwtf.mongodb.net/item?appName=Cluster0';
+const urll = process.env.MONGODB_URI; 
 mongoose.connect(urll)
 .then((results)=> app.listen(3000),console.log("Listening To Port:3000"))
 .catch((err) => console.log(err));
