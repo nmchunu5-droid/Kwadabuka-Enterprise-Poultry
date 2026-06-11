@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="/asserts/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="" class="singup-page">
+        <p>
+            <span style="color:brown; 
+            font-size: large;
+            font-weight: bold;">
+            SignUp Progress :</span>
+
+            <span style="color: red;font-size: large ;">Email verification</span>
+            <span>---------------</span>
+            <span>Login details registratinon</span>
+            <span>---------------</span>
+            <span>Apartment profile registratiom</span>
+            <span>----------------</span>
+            <span>Finish</span>
+        </p>
+
+        <form data-sid="signupP">
+            <label for="username" >Username</label>
+            <input type="text" placeholder="Create username" class="username"><br>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Create password" class="userpassword"><br>
+
+            <input type="text" class="useremail" value ='<%= data %>' disabled ><br> 
+            <button type="submit">submit</button>
+
+        </form>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <script src="/asserts/JqEvForm.js"></script>
+ 
+</body>
+</html>
