@@ -1,4 +1,4 @@
-require('dotenv').config();
+//require('dotenv').config();
 var express = require('express');
 
 var handler = require('./controllers/handler');
@@ -16,10 +16,10 @@ app.use(express.json());
 
 app.set('view engine', 'ejs');
 
-
+const PORT = process.env.PORT || 3000;
 const urll = process.env.MONGODB_URI; 
 mongoose.connect(urll)
-.then((results)=> app.listen(3000),console.log("Listening To Port:3000"))
+.then((results)=> app.listen(PORT),console.log(`Listening To Port: ${PORT}`))
 .catch((err) => console.log(err));
 
 var email_Verification_schema = new mongoose.Schema({
