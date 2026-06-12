@@ -7,8 +7,10 @@
     background-color: red;
 }
 .login {
-    display:block;
-    margin-left: 1235px;  
+    display: flex;
+    justify-content: center;
+    
+    margin-left: 300px;  
 }
 .singup-form{
     display: flex;
@@ -32,4 +34,95 @@
 
 .singup-form li{
     text-decoration: none;
+}
+
+.my-custom-box {
+            width: 600px;              /* Sets the width of the box */
+            height: 400px;             /* Sets the height of the box */
+            background-color: #f0f4f8; /* Fills the box with a light blue/gray color */
+            /*border: 2px solid #0076ff; /* Adds a solid blue frame around the box */
+            border-radius: 8px;        /* Softens the sharp corners */
+            padding: 20px;             /* Adds clear space inside the box around the text */
+            /*margin: 20px auto;         /* Adds space outside the box and centers it on the page */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle drop shadow */
+        }
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+
+.background-card {
+  /* Set the image file as a container background */
+  background-image: url('/asserts/images/whitechicken.jpg');
+  background-size: cover;       /* Scales the image to fill up the element */
+  background-position: right;  /* Centers the crop of the asset */
+  
+  /* Sizing and Layout */
+  width: 600px;
+  height: 400px;
+  display: flex;                /* Quick flexbox center trick */
+  flex-direction: row;
+  /*justify-content: center;      /* Centers content vertically */
+  /*align-items: center;          /* Centers content horizontally */
+  
+  /* Text Styling */
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* Enhances readability against bright backgrounds */
+}
+
+.buttons button{
+    padding: 15px 30px;  /* 15px top/bottom, 30px left/right */
+    font-size: 18px; 
+    margin-left: 40px;   /* Enlarges the text inside */
+}
+
+.buttons{
+  display: flex;
+  padding-top: 20px;
+  box-shadow: 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
+  gap: 20px; /* Adds 20px space between rows and columns */
+ 
+}
+
+
+
+.price{
+    justify-items: center; 
+    display: flex; 
+    display: block;
+    justify-content: center;
+}
+
+.price h1{
+    color: brown;
+}
+
+.bottom{
+    display: flex;
+    display: block;
+    justify-items: center;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+.heaad{
+    display: grid;
+    display: flex;
+    gap: 100px; 
+    align-items: center; 
+    height: 100px;
+}
+
+.heaad p{
+    margin-left: 40px;
+}
+.heaad button{
+    padding: 5px;
 }
