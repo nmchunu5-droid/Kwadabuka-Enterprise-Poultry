@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
 
 .page{
     background-color: antiquewhite;
@@ -132,13 +141,66 @@
     padding: 5px;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    background-color: white;
-  }
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
+
+.icons{
+    background-color: red;
 }
 
+.personicon{
+    background-color: red;
+     width: 40px;
+}
+
+.topdiv{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-content: center; 
+    display: block ; 
+}
+
+.topdiv h1
+{
+    color: red;
+}
+
+.ptopdiv1{
+    font-size:x-large;
+    color: brown;
+}
+.ptopdiv2{
+    display: flex;
+    justify-content: center;
+    color: brown; 
+    font-size: x-large;
+     font-weight: bolder;
+}
+
+.brownchicken{
+    height: 400px; 
+    width:600px;
+}
+
+.both1{
+   display: flex; 
+   justify-content: center; 
+   color: red; 
+}
+
+.unlautherd{
+    width: 600px; 
+    height: 280px;
+}
+
+.bottom h1{
+    color: red;
+}
+
+.bottom p{
+    color: brown; 
+    font-size: x-large;
+}
+
+.foot{
+    background-color: blueviolet;
+}
