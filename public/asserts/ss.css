@@ -84,7 +84,8 @@
 
     display: flex;
     justify-content: center;
-    gap: 20%;
+    gap: 0%;
+    align-items: center;
     margin-left:0%;
 }
 
@@ -150,10 +151,11 @@
     box-sizing: border-box;
 }
 
+/*
 html, body {
     overflow-x: hidden;
     width: 100%;
-}
+}*/
 
 .heaad{
     flex: 1 1 200px; 
