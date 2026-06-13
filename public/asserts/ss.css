@@ -1,0 +1,133 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.page {
+    background-color: antiquewhite;
+}
+
+.header {
+    justify-items: center;
+    border-left: 16666.67%; /* Converted from 200000px */
+    background-color: red;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%; /* Converted from 300px based on 1200px base */
+}
+
+.singup-form {
+    display: flex;
+    display: grid;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: brown;
+}
+
+.singup-form input {
+    display: flex;
+    align-content: center;
+    width: 25%; /* Converted from 300px */
+    height: 3.33%; /* Converted from 40px */
+}
+
+.singup-page p {
+    display: flex;
+    justify-content: center;
+}
+
+.singup-form li {
+    text-decoration: none;
+}
+
+.my-custom-box {
+    width: 50%; /* Converted from 600px */
+    height: 33.33%; /* Converted from 400px */
+    background-color: #f0f4f8; 
+    border-radius: 0.67%; /* Converted from 8px */
+    padding: 1.67%; /* Converted from 20px */
+    box-shadow: 0 0.33% 0.67% rgba(0, 0, 0, 0.1); /* Converted from 0 4px 8px */
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.background-card {
+    background-image: url('/asserts/images/whitechicken.jpg');
+    background-size: cover;       
+    background-position: right;  
+    
+    width: 50%; /* Converted from 600px */
+    height: 33.33%; /* Converted from 400px */
+    display: flex;                
+    flex-direction: row;
+    
+    color: white;
+    text-shadow: 0.17% 0.17% 0.33% rgba(0,0,0,0.8); /* Converted from 2px 2px 4px */
+}
+
+.buttons button {
+    padding: 1.25% 2.5%; /* Converted from 15px 30px */
+    font-size: 1.5%; /* Converted from 18px */
+    margin-left: 3.33%; /* Converted from 40px */
+}
+
+.buttons {
+    display: flex;
+    padding-top: 1.67%; /* Converted from 20px */
+    box-shadow: 0% -0.83% 0.83% -0.83% rgba(0, 0, 0, 0.5); /* Converted from 0px -10px 10px -10px */
+    gap: 1.67%; /* Converted from 20px */
+}
+
+.price {
+    justify-items: center; 
+    display: flex; 
+    display: block;
+    justify-content: center;
+}
+
+.price h1 {
+    color: brown;
+}
+
+.bottom {
+    display: flex;
+    display: block;
+    justify-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heaad {
+    display: grid;
+    display: flex;
+    gap: 8.33%; /* Converted from 100px */
+    align-items: center; 
+    height: 8.33%; /* Converted from 100px */
+}
+
+.heaad p {
+    margin-left: 3.33%; /* Converted from 40px */
+}
+
+.heaad button {
+    padding: 0.42%; /* Converted from 5px */
+}
+
+@media screen and (max-width: 50%) { /* Converted from 600px */
+    body {
+        background-color: white;
+    }
+    .container {
+        width: 100%;
+        padding: 0.83%; /* Converted from 10px */
+    }
+}
