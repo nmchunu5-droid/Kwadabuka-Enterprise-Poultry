@@ -24,11 +24,7 @@
     background-color: red;
 }
 .login {
-     flex: 1 1 200px; 
-  /* 3. Ensure padding and borders don't add extra unexpected width */
-    box-sizing: border-box;
-
-    flex-wrap: wrap;
+    
     display: flex;
     justify-content: center;
     margin-left: 22.21%;  /* 300px / 1351px */
@@ -231,7 +227,7 @@
   /* 3. Ensure padding and borders don't add extra unexpected width */
     box-sizing: border-box;
     flex-wrap: wrap;
-    
+
    display: flex; 
    justify-content: center; 
    color: red; 
