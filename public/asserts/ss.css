@@ -222,9 +222,9 @@ html, body {
 }
 
 .brownchicken{
-    width: 44.41%;       /* 600px / 1351px */
+    width: 65%; /*44.41%;       /* 600px / 1351px */
     height: 100%;      /* 400px / 1523px */
-    margin-left: 35%;
+    margin-left: 15%;
 }
 
 .both1{
