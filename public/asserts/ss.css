@@ -1,3 +1,4 @@
+/*
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -9,8 +10,9 @@
   .container {
     width: 100%;
     padding: 10px; /* Kept or can be 0.66% width / 0.74% height */
-  }
-}
+ /* }
+}*/
+
 
 .page{
     background-color: antiquewhite;
