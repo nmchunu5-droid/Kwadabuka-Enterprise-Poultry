@@ -61,6 +61,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .cards{
+    flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
     display: flex;
     justify-content: center;
     gap: 20%;
