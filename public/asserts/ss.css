@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     margin-left: 22.21%;  /* 300px / 1351px */
+    
 }
 .singup-form{
     display: flex;
@@ -116,6 +117,10 @@
 }
 
 .heaad{
+    flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+
     display: grid;
     display: flex;
     gap: 7.4%;           /* 100px / 1351px */
