@@ -150,6 +150,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .heaad{
     flex: 1 1 200px; 
   /* 3. Ensure padding and borders don't add extra unexpected width */
