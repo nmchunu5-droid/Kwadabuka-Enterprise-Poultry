@@ -63,6 +63,8 @@
 .cards{
     display: flex;
     justify-content: center;
+    gap: 20%;
+    margin-left:0%;
 }
 
 .background-card {
@@ -81,8 +83,8 @@
 
 .buttons button{
     /* top/bottom: 15px (0.98% height), left/right: 30px (2.22% width) */
-    padding: 0.98% 2.22%;  
-    font-size: 1.18%;      /* 18px / 1523px */
+    padding: 0.98% 2.22%; 
+    font-size: 100%; /*1.18%;*/      /* 18px / 1523px */
     margin-left: 2.96%;    /* 40px / 1351px */
 }
 
@@ -98,6 +100,7 @@
     display: flex; 
     display: block;
     justify-content: center;
+    
 }
 
 .price h1{
@@ -127,6 +130,9 @@
     gap: 7.4%;           /* 100px / 1351px */
     align-items: center; 
     height: 6.57%;       /* 100px / 1523px */
+    margin-bottom: 5%;
+    
+    
 }
 
 .heaad p{
@@ -142,7 +148,7 @@
 
 .personicon{
     background-color: red;
-    width: 2.96%;        /* 40px / 1351px */
+    width: 30%;        /* 40px / 1351px */
 }
 
 .topdiv{
@@ -171,7 +177,8 @@
 
 .brownchicken{
     width: 44.41%;       /* 600px / 1351px */
-    height: 26.26%;      /* 400px / 1523px */
+    height: 100%;      /* 400px / 1523px */
+    margin-left: 35%;
 }
 
 .both1{
@@ -181,7 +188,7 @@
 }
 
 .unlautherd{
-    width: 44.41%;       /* 600px / 1351px */
+    width: 20%;/*44.41%;       /* 600px / 1351px */
     height: 18.38%;      /* 280px / 1523px */
 }
 
