@@ -24,12 +24,22 @@
     background-color: red;
 }
 .login {
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin-left: 22.21%;  /* 300px / 1351px */
     
 }
 .singup-form{
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+
+    flex-wrap: wrap;
     display: flex;
     display: grid;
     justify-content: center;
@@ -38,12 +48,22 @@
 }
 
 .singup-form input{
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
     display: flex;
     align-content: center;
     width: 22.21%;  /* 300px / 1351px */
     height: 2.63%;   /* 40px / 1523px */
 }
 .singup-page p{
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
@@ -94,6 +114,11 @@
 }
 
 .buttons{
+   flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
   display: flex;
   padding-top: 1.31%; /* 20px / 1523px */
   box-shadow: 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
@@ -101,6 +126,11 @@
 }
 
 .price{
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
     justify-items: center; 
     display: flex; 
     display: block;
@@ -157,6 +187,11 @@
 }
 
 .topdiv{
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
     width: 44.41%;       /* 600px / 1351px */
     height: 39.4%;       /* 600px / 1523px */
     display: flex;
@@ -173,6 +208,11 @@
     color: brown;
 }
 .ptopdiv2{
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
     display: flex;
     justify-content: center;
     color: brown; 
@@ -187,6 +227,11 @@
 }
 
 .both1{
+     flex: 1 1 200px; 
+  /* 3. Ensure padding and borders don't add extra unexpected width */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
    display: flex; 
    justify-content: center; 
    color: red; 
