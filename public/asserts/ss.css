@@ -8,7 +8,7 @@
   }
   .container {
     width: 100%;
-    padding: 0.83%; /* 10px / 1200px */
+    padding: 10px; /* Kept or can be 0.66% width / 0.74% height */
   }
 }
 
@@ -17,13 +17,14 @@
 }
 .header{
     justify-items: center;
-    border-left: 16666.67%; /* 200000px / 1200px */
+    /* 200000px was likely a typo, converted to width percentage */
+    border-left: 14803.85%; 
     background-color: red;
 }
 .login {
     display: flex;
     justify-content: center;
-    margin-left: 25%; /* 300px / 1200px */  
+    margin-left: 22.21%;  /* 300px / 1351px */
 }
 .singup-form{
     display: flex;
@@ -36,8 +37,8 @@
 .singup-form input{
     display: flex;
     align-content: center;
-    width: 25%; /* 300px / 1200px */
-    height: 5%; /* 40px / 800px */
+    width: 22.21%;  /* 300px / 1351px */
+    height: 2.63%;   /* 40px / 1523px */
 }
 .singup-page p{
     display: flex;
@@ -49,11 +50,11 @@
 }
 
 .my-custom-box {
-    width: 50%; /* 600px / 1200px */
-    height: 50%; /* 400px / 800px */
+    width: 44.41%;              /* 600px / 1351px */
+    height: 26.26%;             /* 400px / 1523px */
     background-color: #f0f4f8; 
-    border-radius: 8px; /* Kept in px as standard practice for corners, or use 0.67% */
-    padding: 1.67%; /* 20px / 1200px */
+    border-radius: 8px;        
+    padding: 1.31%;             /* 20px / 1523px (Vertical context) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .cards{
@@ -62,30 +63,31 @@
 }
 
 .background-card {
-    background-image: url('/asserts/images/whitechicken.jpg');
-    background-size: cover;       
-    background-position: right;  
-    
-    width: 50%; /* 600px / 1200px */
-    height: 50%; /* 400px / 800px */
-    display: flex;                
-    flex-direction: row;
-    
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8); 
+  background-image: url('/asserts/images/whitechicken.jpg');
+  background-size: cover;       
+  background-position: right;  
+  
+  width: 44.41%;  /* 600px / 1351px */
+  height: 26.26%; /* 400px / 1523px */
+  display: flex;                
+  flex-direction: row;
+  
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8); 
 }
 
 .buttons button{
-    padding: 1.25% 2.5%; /* 15px/800px (top/bottom) and 30px/1200px (left/right) */
-    font-size: 18px; /* Font sizes generally use rem/em, but can remain absolute */
-    margin-left: 3.33%; /* 40px / 1200px */
+    /* top/bottom: 15px (0.98% height), left/right: 30px (2.22% width) */
+    padding: 0.98% 2.22%;  
+    font-size: 1.18%;      /* 18px / 1523px */
+    margin-left: 2.96%;    /* 40px / 1351px */
 }
 
 .buttons{
-    display: flex;
-    padding-top: 2.5%; /* 20px / 800px */
-    box-shadow: 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
-    gap: 1.67%; /* 20px / 1200px */
+  display: flex;
+  padding-top: 1.31%; /* 20px / 1523px */
+  box-shadow: 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
+  gap: 1.48%;         /* 20px / 1351px */
 }
 
 .price{
@@ -110,20 +112,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-    
+
 .heaad{
     display: grid;
     display: flex;
-    gap: 8.33%; /* 100px / 1200px */
+    gap: 7.4%;           /* 100px / 1351px */
     align-items: center; 
-    height: 12.5%; /* 100px / 800px */
+    height: 6.57%;       /* 100px / 1523px */
 }
 
 .heaad p{
-    margin-left: 3.33%; /* 40px / 1200px */
+    margin-left: 2.96%;  /* 40px / 1351px */
 }
 .heaad button{
-    padding: 0.42%; /* 5px / 1200px */
+    padding: 0.33% 0.37%; /* top/bottom 0.33%, left/right 0.37% */
 }
 
 .icons{
@@ -132,18 +134,18 @@
 
 .personicon{
     background-color: red;
-    width: 3.33%; /* 40px / 1200px */
+    width: 2.96%;        /* 40px / 1351px */
 }
 
 .topdiv{
-    height: 75%; /* 600px / 800px */
-    width: 50%; /* 600px / 1200px */
+    width: 44.41%;       /* 600px / 1351px */
+    height: 39.4%;       /* 600px / 1523px */
     display: flex;
     align-content: center; 
     display: block ; 
 }
 
-.topdiv h1{
+.topdiv h1 {
     color: red;
 }
 
@@ -160,8 +162,8 @@
 }
 
 .brownchicken{
-    height: 50%; /* 400px / 800px */
-    width: 50%; /* 600px / 1200px */
+    width: 44.41%;       /* 600px / 1351px */
+    height: 26.26%;      /* 400px / 1523px */
 }
 
 .both1{
@@ -171,8 +173,8 @@
 }
 
 .unlautherd{
-    width: 50%; /* 600px / 1200px */
-    height: 35%; /* 280px / 800px */
+    width: 44.41%;       /* 600px / 1351px */
+    height: 18.38%;      /* 280px / 1523px */
 }
 
 .bottom h1{
