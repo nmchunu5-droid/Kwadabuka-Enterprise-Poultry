@@ -1,0 +1,31 @@
+.contacts{
+    justify-items: center;
+    width: 60%;  
+    margin: 0 auto;
+    align-content: center;  
+}
+
+.contacts p img{
+    background-color: red;
+}
+
+#topP{
+    color: red;
+    font-weight:bolder;
+    font-size:x-large;
+    font-style: italic;
+    
+}
+
+.about{
+    
+    width: 60%;           /* Sets the width to 60% of the screen */
+    margin: 0 auto;       /* Centers the entire container horizontally */
+    align-content: center; 
+}
+
+.service{
+    width: 60%;           /* Sets the width to 60% of the screen */
+    margin: 0 auto;       /* Centers the entire container horizontally */
+    align-content: center;
+}

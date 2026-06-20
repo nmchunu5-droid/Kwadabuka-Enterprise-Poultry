@@ -20,6 +20,21 @@ var handle = function(app,UserEmail,UserProfile,nodemailer){
         res.render('signup');
         console.log('sent1');   
     })
+
+    app.get('/about',function(req,res){
+        res.render('about');
+        console.log('about page');
+    })
+
+    app.get('/contacts',function(req,res){
+        res.render('contacts');
+        console.log('contacts page');
+    })
+
+    app.get('/service',function(req,res){
+        res.render('service');
+        console.log('service page');
+    })
     
     app.get('/signup/signupP',function(req,res){
         
